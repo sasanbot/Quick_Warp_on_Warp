@@ -42,7 +42,7 @@ esac
 cfwarpIP(){
 echo "download warp endpoint file base on your CPU architecture"
 if [[ -n $cpu ]]; then
-curl -L -o warpendpoint -# --retry 2 https://raw.githubusercontent.com/azavaxhuman/Quick_Warp_on_Warp/main/cpu/$cpu
+curl -L -o warpendpoint -# --retry 2 https://raw.githubusercontent.com/sasanbot/Quick_Warp_on_Warp/main/cpu/$cpu
 fi
 }
 
@@ -281,15 +281,6 @@ echo ""
 echo "--------------- DDS-WOW -----------------------------"
 echo ""
 echo "Sasan-VPN  ：github.com/Sasanbot"
-echo ""
-echo ""
-echo ""
-echo ""
-echo "---------------Credits-----------------------------"
-echo ""
-echo ""
-echo ""
-echo ""
 echo ""
 echo ""
 echo "Welcome to DDS-WOW(WARP on Warp)"
